@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"main.min.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/initials/_variables.scss","../sass/initials/_reset.scss"],"names":[],"mappings":"AAAA,MACI,4BACA,8BACA,wBACA,+CACA,+CACA,+BACA,4DACA,sCACA,kCACA,+BACA,wBAEA,6BACA,wBAEA,2BACA,2BACA,+BAEA,8CCpBJ,iBACI,SACA,UACA,eAEF,OACE,SACA,UACA,aACA,yBACA","file":"main.min.css"}
