@@ -79,7 +79,7 @@ button {
   padding: 94px 0;
 }
 
-.background-color {
+.sextion__background-color {
   background-color: var(--secondary-background-color);
 }
 
@@ -922,13 +922,17 @@ button {
 /* Стилізуємо портфоліо */
 
 /* Фільтр робіт */
-.portfolio-filter-list {
+.portfolio-filter {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
   
 }
-.portfolio-filter-list li:not(:last-child) {
+
+.portfolio-filter__arranger {
+  margin-bottom: 50px;
+}
+
+.portfolio-filter__item:not(:last-child) {
   margin-right: 8px;
 }
 
