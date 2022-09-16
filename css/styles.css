@@ -411,7 +411,7 @@ button {
 }
 
 /* sec 3, 4 Назва секції - відима */
-.section-name {
+.section__name {
   margin-top: 0;
   margin-bottom: 50px;
 
@@ -452,13 +452,13 @@ button {
 }
 
 /* sec 4 список працівників ----------------------------------------------- */
-.team-mate-list {
+.our-team {
   display: flex;
   column-gap: 30px;
 }
 
 /* sec4 Картка працівника */
-.team-mate {
+.our-team__team-mate {
   height: 428px;
   background-color: var(--logo-color-contrast);
 
@@ -468,15 +468,11 @@ button {
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.team-mate-pic {
-  display: block;
-}
-
-.team-mate-info {
+.our-team__info-wrapper {
   padding: 30px 10px;
 }
 
-.team-mate-name {
+.our-team__full-name {
   margin: 0;
 
   font-weight: 500;
@@ -485,7 +481,7 @@ button {
   text-align: center;
 }
 
-.team-mate-position {
+.our-team__position {
   margin-top: 10px;
   margin-bottom: 16px;
 
@@ -503,7 +499,7 @@ button {
   opacity: transparent;
 }
 
-.team-mate .socials-horizontal-block {
+.our-team__team-mate .socials-horizontal-block {
   color: var(--border-color);
   background-color: var(--logo-color-contrast);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -511,8 +507,8 @@ button {
   
 }
 
-.team-mate .socials-horizontal-block:hover,
-.team-mate .socials-horizontal-block:focus 
+.our-team__team-mate .socials-horizontal-block:hover,
+.our-team__team-mate .socials-horizontal-block:focus 
 {
   color: var(--logo-color-contrast);
   background-color: var(--accent-color);
