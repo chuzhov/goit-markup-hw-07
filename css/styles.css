@@ -417,17 +417,17 @@ button {
 }
 
 /* sec 3 список - картинки в рядок ---------------------------------------- */
-.we-doing-list {
+.our-trends {
   display: flex;
   column-gap: 30px;
 }
 
-.we-doing-list .thumb {
+.our-trends__img-wrapper {
   position: relative;
   overflow: hidden;
   width: 100%;
 }
-.we-doing-list .thumb > .description {
+.our-trends__description {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -447,7 +447,7 @@ button {
 
 }
 
-.we-doing-pic {
+.our-trends__img {
   display: block;
 }
 
