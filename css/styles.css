@@ -517,12 +517,12 @@ button {
 
 /* Sec 5  перелік постійних клієнтів  */
 
-.clients-list {
+.our-clients {
   display: flex;
   justify-content: center;
   column-gap: 30px;
 }
-.client-item {
+.our-client__item-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -541,8 +541,8 @@ button {
               border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-item:hover,
-.client-item:focus {
+.our-client__item-link:hover,
+.our-client__item-link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -556,7 +556,7 @@ button {
 }
 
 /* Об'еднаємо всі блоки в футері  */
-.footer-combiner
+.page-footer__combiner
 {
   display: flex;
   align-items: baseline;
