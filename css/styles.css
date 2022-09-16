@@ -369,18 +369,15 @@ button {
 
 /* Назва секції - невідима */
 /* sec 2 Скриваємо логічний заголовок секції, якого немає на екрані */
-.hidden-header {
-  display: none; /*тимчасове рішення*/
-}
 
 /* sec2 h3 Список переваг -------------------------------------------- */
-.section-features-list {
+.features {
   display: flex;
   column-gap: 30px;
 }
 
 /* Задаємо шапки над кожною перевагою */
-.features-list-icon {
+.features__icon-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -393,7 +390,7 @@ button {
 
 
 
-.section-features-list-header {
+.features__header {
   margin: 30px 0 10px;
 
   font-size: 14px;
@@ -402,7 +399,7 @@ button {
 
   text-transform: uppercase;
 }
-.section-features-list-content {
+.features__content {
   margin: 0;
   line-height: 1.71;
 
