@@ -1,1 +1,13 @@
-@import '/sass/styles';
+@import 'initials/variables';
+@import 'initials/reset';
+
+@import 'utils/side-styles';
+
+@import 'initials/common';
+  
+@import 'layout/header';
+@import 'layout/hero';
+@import 'layout/features';
+
+@import 'layout/our-team';
+
