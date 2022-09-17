@@ -6,12 +6,12 @@
     line-height: 1.19;
     text-decoration: none;
   }
-  .logo--main-color {
+  .logo--main-color {   
     color: var(--logo-color-head);
   }
   .logo--accent-color {
-    color: var(--logo-color-tail);
+    color: var(--logo-color-tail);  //можно назвати page-header--color
   }
   .logo--reverse-color {
-    color: var(--logo-color-contrast); /*для футера */
+    color: var(--logo-color-contrast); //можно назвати page-footer--color
   }

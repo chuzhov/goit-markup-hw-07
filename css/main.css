@@ -119,7 +119,7 @@ button {
 }
 
 .logo--reverse-color {
-  color: var(--logo-color-contrast); /*для футера */
+  color: var(--logo-color-contrast);
 }
 
 .page-header {
@@ -364,7 +364,7 @@ button {
   color: var(--article-text-color);
 }
 
-.team-mate-socials {
+.our-team__socials {
   margin: 0;
   display: flex;
   justify-content: center;
