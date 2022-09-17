@@ -1,9 +1,10 @@
-@import 'initials/variables';
-@import 'initials/reset';
+@import 'utils/variables';
+@import 'base/reset';
 
 @import 'vendors/side-styles';
 
-@import 'initials/common';
+@import 'base/common';
+@import 'components/logo';
   
 @import 'layout/header';
 @import 'layout/hero';
@@ -13,9 +14,7 @@
 @import 'layout/our-clients';
 @import 'layout/footer';
 
-@import 'modal/modal';
+@import 'components/modal';
 
 @import 'layout/portfolio';
-
-
 
