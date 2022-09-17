@@ -118,26 +118,28 @@
   border-radius: 4px;
 
   background-color: transparent;
-}
 
-.call-back-form .input:focus,
-.call-back-form .input:hover {
-  border: 1px solid var(--accent-color);
-  outline: transparent;
-}
+  &.input:focus,
+  &.input:hover {
+    border: 1px solid var(--accent-color);
+    outline: transparent;
+  }
 
-.call-back-form .input-ico {
-  position: absolute;
-  left: 12px;
-  top: 50%;
-  transform: translateY(-50%);
+  &+.input-ico {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+  
+    fill: var(--logo-color-tail);
 
-  fill: var(--logo-color-tail);
-}
+  }
 
-.call-back-form .input:focus + .input-ico,
-.call-back-form .input:hover + .input-ico {
-  fill: var(--accent-color);
+  &.input:focus + .input-ico,
+  &.input:hover + .input-ico {
+    fill: var(--accent-color);
+  }
+
 }
 
 .call-back-txt {

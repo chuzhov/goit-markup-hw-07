@@ -667,23 +667,18 @@ button {
   border-radius: 4px;
   background-color: transparent;
 }
-
-.call-back-form .input:focus,
-.call-back-form .input:hover {
+.call-back-form .input.input:focus, .call-back-form .input.input:hover {
   border: 1px solid var(--accent-color);
   outline: transparent;
 }
-
-.call-back-form .input-ico {
+.call-back-form .input + .input-ico {
   position: absolute;
   left: 12px;
   top: 50%;
   transform: translateY(-50%);
   fill: var(--logo-color-tail);
 }
-
-.call-back-form .input:focus + .input-ico,
-.call-back-form .input:hover + .input-ico {
+.call-back-form .input.input:focus + .input-ico, .call-back-form .input.input:hover + .input-ico {
   fill: var(--accent-color);
 }
 
