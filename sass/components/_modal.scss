@@ -154,16 +154,17 @@
   background-color: transparent;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-}
 
-.call-back-txt::placeholder {
-  color: rgba(117, 117, 117, 0.5);
-}
+  &::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+  }
 
-.call-back-form .call-back-txt:focus,
-.call-back-form .call-back-txt:hover {
-  border: 1px solid var(--accent-color);
-  outline: transparent;
+  &.call-back-txt:focus,
+  &.call-back-txt:hover {
+    border: 1px solid var(--accent-color);
+    outline: transparent;
+  }
+
 }
 
 .legal-label {

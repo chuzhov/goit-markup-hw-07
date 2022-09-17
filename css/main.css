@@ -482,6 +482,9 @@ button {
   color: var(--logo-color-contrast);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-addr-text-style1 a:hover, .footer-addr-text-style1 a:focus {
+  color: var(--accent-color);
+}
 
 .footer-addr-text-style2 a {
   line-height: 1.71;
@@ -490,17 +493,12 @@ button {
   color: var(--primary-background-color-transp);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-addr-text-style2 a:hover, .footer-addr-text-style2 a:focus {
+  color: var(--accent-color);
+}
 
 .footer-addr-block li:not(:last-child) {
   margin-bottom: 9px;
-}
-
-/* виділяємо посилання у підвалі */
-.footer-addr-text-style1 a:hover,
-.footer-addr-text-style1 a:focus,
-.footer-addr-text-style2 a:hover,
-.footer-addr-text-style2 a:focus {
-  color: var(--accent-color);
 }
 
 /* Футер блок: приєднуйся до нас в соц.мережах */
@@ -693,13 +691,10 @@ button {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
-
 .call-back-txt::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-
-.call-back-form .call-back-txt:focus,
-.call-back-form .call-back-txt:hover {
+.call-back-txt.call-back-txt:focus, .call-back-txt.call-back-txt:hover {
   border: 1px solid var(--accent-color);
   outline: transparent;
 }

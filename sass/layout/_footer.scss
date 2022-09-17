@@ -73,6 +73,12 @@
   color: var(--logo-color-contrast);
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+
 }
 
 .footer-addr-text-style2 a {
@@ -84,18 +90,15 @@
   color: var(--primary-background-color-transp);
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .footer-addr-block li:not(:last-child) {
   margin-bottom: 9px;
-}
-
-/* виділяємо посилання у підвалі */
-.footer-addr-text-style1 a:hover,
-.footer-addr-text-style1 a:focus,
-.footer-addr-text-style2 a:hover,
-.footer-addr-text-style2 a:focus {
-  color: var(--accent-color);
 }
 
 /* Футер блок: приєднуйся до нас в соц.мережах */
@@ -120,6 +123,8 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--logo-color-contrast);
   background-color: rgba(255, 255, 255, 0.1);
+
+  
 }
 
 .page-footer .socials-list:hover,
