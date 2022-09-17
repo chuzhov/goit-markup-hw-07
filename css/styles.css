@@ -452,6 +452,10 @@ button {
 }
 
 /* sec 4 список працівників ----------------------------------------------- */
+.section--background-color {
+  background-color: var(--secondary-background-color);
+}
+
 .our-team {
   display: flex;
   column-gap: 30px;
@@ -612,7 +616,7 @@ button {
 
 /* Футер блок: приєднуйся до нас в соц.мережах */
 
-.footer-follow-us {
+.footer-title {
   width: fit-content;
   margin-bottom: 20px;
 
@@ -1007,11 +1011,6 @@ button {
 .our-portfolio__link:hover .our-portfolio__overlay {
   /* opacity: 0.9; */
   transform: translateY(0);
-}
-
-
-.portfolio-list img {
-  display: block;
 }
 
 .our-portfolio__info {
