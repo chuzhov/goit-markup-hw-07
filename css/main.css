@@ -100,6 +100,16 @@ button {
   height: 44px;
   border-radius: 50%;
 }
+.socials-list.our-team__socials-list-styler {
+  color: var(--border-color);
+  background-color: var(--logo-color-contrast);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.socials-list.our-team__socials-list-styler:hover, .socials-list.our-team__socials-list-styler:focus {
+  color: var(--logo-color-contrast);
+  background-color: var(--accent-color);
+  outline: transparent;
+}
 
 /* Розмічаємо лого студії */
 .logo {
@@ -369,17 +379,6 @@ button {
   display: flex;
   justify-content: center;
   opacity: transparent;
-}
-
-.our-team__team-mate .socials-list {
-  color: var(--border-color);
-  background-color: var(--logo-color-contrast);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.our-team__team-mate .socials-list:hover, .our-team__team-mate .socials-list:focus {
-  color: var(--logo-color-contrast);
-  background-color: var(--accent-color);
-  outline: transparent;
 }
 
 /* Sec 5  перелік постійних клієнтів  */
