@@ -39,6 +39,9 @@ p, h1, h2, h3, h4, h5 {
 
 img {
   display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 button {
@@ -63,11 +66,17 @@ button {
 }
 
 .container {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  width: auto;
+  min-width: 320px;
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 .section {
@@ -311,7 +320,7 @@ button {
 }
 
 /* sec 3, 4 Назва секції - відима */
-.section__title {
+.section-title {
   margin-top: 0;
   margin-bottom: 50px;
   font-size: 36px;
